@@ -1,11 +1,13 @@
-## In this assignment of RT2 i have to use the final assignment of RT1 to implement some graphical features/tools for the code and code documentation.
-
 Third Assignment of Research Track 1 
 ================================
 ## Professor : Carmine Recchiuto, University of Genoa
 
-### Code documentation
+Code documentation
+------------------
+The code documentation about the nodes is at this link: https://lorebene99.github.io/final_assignment/.
 
+Preface
+-------
 The main gol of the project, given by the Professor Carmine Recchiuto, is to drive the robot inside a particular environment letting the user decide what type of mode to use to guide the robot inside this map. 
 In fact it has to be developed a software architecture for the control of the robot in the environment. The software will rely on the `move_base` and `gmapping packages` for localizing the robot and plan the motion.
 The architecture should be able to get the user request, and let the robot execute one of the following behaviors (depending on the user’s input):
