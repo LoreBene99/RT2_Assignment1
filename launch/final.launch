@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find RT2_Assignment1)/launch/simulation_gmapping.launch"/>
+    <include file="$(find RT2_Assignment1)/launch/move_base.launch"/>
+    <node pkg="RT2_Assignment1" type="control" name="control" output="screen" required="true" launch-prefix="xterm -e"/>
+</launch>
+
