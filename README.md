@@ -1,4 +1,5 @@
-Final Assignment of Research Track 1 
+# Readme of the final assignment of RT1:
+Third Assignment of Research Track 1 
 ================================
 ## Professor : Carmine Recchiuto, University of Genoa
 
@@ -59,7 +60,7 @@ To obtain this result the robot must have explored all the surroundings since wi
 
 Nodes
 -----
-
+First of all, you can find all the documentation about the nodes to this link: https://lorebene99.github.io/final_assignment/.
 ### control node
 
 The control node spawn with the launch file. The user has to decide with which modality wants to drive the robot inside the environment. I have done a switch in order to "execute" the particular node that provides the specific behaviour requested by the user to guide the robot. 
