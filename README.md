@@ -1,3 +1,5 @@
+### In this assignment of RT2 i have to use the final assignment of RT1 to implement some graphical features and code documentations.
+
 # Readme of the final assignment of RT1:
 Third Assignment of Research Track 1 
 ================================
