@@ -235,7 +235,7 @@ This is an image that show how nodes are connected to each other (thanks to the 
 #### reach flowchart
 
 <p align="center">
-<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/noetic/images/reach.jpg" width="500" height="600">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/main/images/reach.jpg" width="500" height="600">
 </p>
 
 #### keyb flowchart
