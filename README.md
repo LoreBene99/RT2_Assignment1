@@ -1,13 +1,24 @@
 # First Assignment of Research Track 2
-================================================
+
+Code Documentation
+------------
+The project documentation, generated with Doxygen can be found in the following link:
+
+[__lorebene99.github.io/final_assignment/index.html__](https://lorebene99.github.io/final_assignment/)
+
+Jupyter notebook
+------------
+The jupyter notebook can be found here: [__RT2_Assignment1_Jupyter.ipynb__](https://github.com/LoreBene99/RT2_Assignment1/blob/main/RT2_Assignment1_Jupyter.ipynb)
+
+Data Analysis
+------------
+The results of the data analysis, computed with Matlab, can be found in [__RT2_Statistical_Analysis.pdf__](https://github.com/LoreBene99/RT2_Assignment1/blob/main/RT2_Statistical_Analysis.pdf)
+
+-----------------------
 
 # Third Assignment of Research Track 1 
 
 ## Professor : Carmine Recchiuto, University of Genoa
-
-Code documentation
-------------------
-The code documentation about the nodes is at this link: https://lorebene99.github.io/final_assignment/.
 
 Preface
 -------
