@@ -1,4 +1,5 @@
 # First Assignment of Research Track 2
+## Professor : Carmine Recchiuto, University of Genoa
 
 Code Documentation
 ------------
@@ -15,11 +16,6 @@ Data Analysis
 The results of the data analysis, computed with Matlab, can be found in [__RT2_Statistical_Analysis.pdf__](https://github.com/LoreBene99/RT2_Assignment1/blob/main/RT2_Statistical_Analysis.pdf)
 
 -----------------------
-
-# Third Assignment of Research Track 1 
-
-## Professor : Carmine Recchiuto, University of Genoa
-
 Preface
 -------
 The main gol of the project, given by the Professor Carmine Recchiuto, is to drive the robot inside a particular environment letting the user decide what type of mode to use to guide the robot inside this map. 
