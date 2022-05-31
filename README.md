@@ -39,27 +39,26 @@ The Robot Operating System (ROS) is a set of software libraries and tools that h
 and `xterm` (sudo apt install xterm).
 Then you have to create your own ROS workspace and in the src folder you have to:
 * Download the final_assignment folder and put it inside the src folder, since the final_assignment folder represents the ROS package in which there are the nodes.
-* Switch to branch NOETIC, since it was used the Noetic Release of ROS. 
 * Do catkin_make in the ROOT FOLDER OF YOUR WORKSPACE (Catkin is the official build system of ROS and the successor to the original ROS build system, rosbuild).
 
 At the end, to run the project, i have created a ROS launch file, named final.launch, contained in the launch_file folder : 
 
 ```xml
 <launch>
-    <include file="$(find final_assignment)/launch/simulation_gmapping.launch"/>
-    <include file="$(find final_assignment)/launch/move_base.launch"/>
-    <node pkg="final_assignment" type="control" name="control" output="screen" required="true" launch-prefix="xterm -e"/>
+    <include file="$(find RT2_Assignment1)/launch/simulation_gmapping.launch"/>
+    <include file="$(find RT2_Assignment1)/launch/move_base.launch"/>
+    <node pkg="RT2_Assignment1" type="control" name="control" output="screen" required="true" launch-prefix="xterm -e"/>
 </launch>
 ```
 To launch the entire project at once, avoding running the single nodes, type: 
-#### roslaunch final_assignment final.launch
+#### roslaunch RT2_Assignment1 final.launch
 
 Introduction
 ------------
 The environment in which the robot moves is :
 
 <p align="center">
-<img src="https://github.com/LoreBene99/final_assignment/blob/noetic/images/env.png" width="550" height="400">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/main/images/env.png" width="550" height="400">
 </p>
 This represents the point of view from Gazebo, a 3D robot simulator in which we can see the robot moving in a real 3D space. 
 It integrates with ROS using ROS messages, services and dynamic reconfigure.
@@ -67,7 +66,7 @@ It integrates with ROS using ROS messages, services and dynamic reconfigure.
 Whereas :
 
 <p align="center">
-<img src="https://github.com/LoreBene99/final_assignment/blob/noetic/images/map.png" width="550" height="400">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/main/images/map.png" width="550" height="400">
 </p>
 This represents the point of view from Rviz. 
 Rviz is a 3D visualization tool for ROS applications. It offers a view of the robot model, acquires sensor information from the robot sensors, and reproduces the acquired data. It can display data from video cameras, lasers, 3D and 2D devices, including images and point clouds.
@@ -98,15 +97,15 @@ switch(n){
 			break; 
 
 			case '1': //launch node1 
-				system("rosrun final_assignment reach"); 
+				system("rosrun RT2_Assignment1 reach"); 
 			break; 
 
 			case '2': //launch node2 
-				system("rosrun final_assignment keyb"); 
+				system("rosrun RT2_Assignment1 keyb"); 
 			break; 
 
 			case '3': //launch node3 
-				system("rosrun final_assignment assistkey"); 
+				system("rosrun RT2_Assignment1 assistkey"); 
 			break; 
 
 			case '4': //reset the simulation 
@@ -230,25 +229,25 @@ Flowchart
 This is an image that show how nodes are connected to each other (thanks to the command rosrun rqt_graph rqt_graph):
 
 <p align="center">
-<img src="https://github.com/LoreBene99/final_assignment/blob/noetic/images/ros.png" width="9000" height="150">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/main/images/ros.png" width="9000" height="150">
 </p>
 
 #### reach flowchart
 
 <p align="center">
-<img src="https://github.com/LoreBene99/final_assignment/blob/noetic/images/reach.jpg" width="500" height="600">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/noetic/images/reach.jpg" width="500" height="600">
 </p>
 
 #### keyb flowchart
 
 <p align="center">
-<img src="https://github.com/LoreBene99/final_assignment/blob/noetic/images/keyb.jpg" width="600" height="250">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/main/images/keyb.jpg" width="600" height="250">
 </p>
 
 #### assistkey flowchart
 
 <p align="center">
-<img src="https://github.com/LoreBene99/final_assignment/blob/noetic/images/assistkey.jpg" width="500" height="600">
+<img src="https://github.com/LoreBene99/RT2_Assignment1/blob/main/images/assistkey.jpg" width="500" height="600">
 </p>
 
 Conclusions
