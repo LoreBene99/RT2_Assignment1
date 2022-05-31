@@ -5,7 +5,7 @@ Code Documentation
 ------------
 The project documentation, generated with Doxygen can be found in the following link:
 
-[__lorebene99.github.io/final_assignment/index.html__](https://lorebene99.github.io/final_assignment/)
+[__lorebene99.github.io/RT2_Assignment1/index.html__](https://lorebene99.github.io/RT2_Assignment1/)
 
 Jupyter notebook
 ------------
