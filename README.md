@@ -38,7 +38,7 @@ Installing and Running
 The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. First of all in order to run and install the project it is required to have the `slam_gmapping` package, `the ros navigation stack` (sudo apt-get install ros-<your_ros_distro>-navigation)
 and `xterm` (sudo apt install xterm).
 Then you have to create your own ROS workspace and in the src folder you have to:
-* Download the final_assignment folder and put it inside the src folder, since the final_assignment folder represents the ROS package in which there are the nodes.
+* Download the RT2_Assignment1 folder and put it inside the src folder, since the RT2_Assignment1 folder represents the ROS package in which there are the nodes.
 * Do catkin_make in the ROOT FOLDER OF YOUR WORKSPACE (Catkin is the official build system of ROS and the successor to the original ROS build system, rosbuild).
 
 At the end, to run the project, i have created a ROS launch file, named final.launch, contained in the launch_file folder : 
