@@ -1,5 +1,5 @@
 # First Assignment of Research Track 2
-## Professor : Carmine Recchiuto, University of Genoa
+## Professor : Carmine Recchiuto, University of Genova
 
 Code Documentation
 ------------
